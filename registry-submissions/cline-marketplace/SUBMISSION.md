@@ -5,8 +5,8 @@ Submit at: `https://github.com/cline/mcp-marketplace/issues/new`
 ## Submission Fields
 
 - **Server Name:** Knot
-- **Namespace / ID:** `com.connectknot/knot`
-- **Repository URL:** `https://github.com/Knot-Repo/knot-sdk`
+- **Namespace / ID:** `com.connectknot/knot` (and `io.github.ConnectKnot/knot`)
+- **Repository URL:** `https://github.com/ConnectKnot/knot-mcp`
 - **Website / Documentation URL:** `https://connectknot.com/developers/quickstart`
 - **Agent Instructions (`llms-installation.md` / `agents.md`):** `https://connectknot.com/agents.md`
 - **Logo / Icon (512x512 PNG):** `https://api.connectknot.com/api/brand/knot-icon.png`

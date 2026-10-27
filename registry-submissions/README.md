@@ -5,10 +5,10 @@ This directory contains the validated manifests and submission artifacts to list
 ## 1. Official MCP Registry (`registry.modelcontextprotocol.io`) — Highest Leverage
 
 - **Manifest:** [`/server.json`](file:///Users/JustinRWong/Desktop/Projects/Knot/server.json)
-- **Namespace:** `com.connectknot/knot`
+- **Namespace:** `com.connectknot/knot` & `io.github.ConnectKnot/knot`
 - **Schema:** `https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json`
 - **Remote Endpoint:** `https://api.connectknot.com/mcp` (`streamable-http`)
-- **Public Repository Reference:** `https://github.com/Knot-Repo/knot-sdk` (repo ID `1431744735`)
+- **Public Repository Reference:** `https://github.com/ConnectKnot/knot-mcp` (repo ID `1435883604`)
 
 ### Needs-Justin Steps (DNS + Publisher CLI):
 1. Install `mcp-publisher`:
