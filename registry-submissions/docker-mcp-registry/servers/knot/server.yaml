@@ -1,0 +1,12 @@
+name: knot
+title: Knot
+description: Shared memory across ChatGPT, Claude, Cursor, and Gemini with OAuth 2.1 and governed supersession.
+category: productivity
+icon: https://api.connectknot.com/api/brand/knot-icon.png
+documentation: https://connectknot.com/agents.md
+source: https://github.com/Knot-Repo/knot-sdk
+remote:
+  type: streamable-http
+  url: https://api.connectknot.com/mcp
+oauth:
+  required: true

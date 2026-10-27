@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.connectknot/knot",
+  "title": "Knot",
+  "description": "Shared memory across ChatGPT, Claude, Cursor, and Gemini. OAuth 2.1 context & supersession.",
+  "version": "1.0.1",
+  "websiteUrl": "https://connectknot.com",
+  "repository": {
+    "url": "https://github.com/ConnectKnot/knot-mcp",
+    "source": "github",
+    "id": "1435883604"
+  },
+  "icons": [
+    {
+      "src": "https://api.connectknot.com/api/brand/knot-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.connectknot.com/mcp"
+    }
+  ]
+}
