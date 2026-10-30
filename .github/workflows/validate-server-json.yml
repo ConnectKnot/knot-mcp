@@ -1,0 +1,47 @@
+name: Validate MCP Registry Manifest
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  validate-server-json:
+    name: Validate server.json against MCP Registry Schema
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate server.json structure and schema constraints
+        run: |
+          node -e '
+            const fs = require("node:fs");
+            const manifest = JSON.parse(fs.readFileSync("server.json", "utf8"));
+            const expectedSchema = "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json";
+            if (manifest.$schema !== expectedSchema) {
+              throw new Error(`Expected $schema ${expectedSchema}, got ${manifest.$schema}`);
+            }
+            if (manifest.name !== "com.connectknot/knot") {
+              throw new Error(`Expected canonical name com.connectknot/knot, got ${manifest.name}`);
+            }
+            if (typeof manifest.description !== "string" || manifest.description.length < 1 || manifest.description.length > 100) {
+              throw new Error(`Description must be 1..100 chars, got ${manifest.description?.length}`);
+            }
+            if (!Array.isArray(manifest.remotes) || manifest.remotes[0]?.url !== "https://api.connectknot.com/mcp") {
+              throw new Error("Remote endpoint must be https://api.connectknot.com/mcp");
+            }
+            const tools = manifest._meta?.["io.modelcontextprotocol.registry/publisher-provided"]?.tools;
+            if (!Array.isArray(tools) || tools.length !== 24) {
+              throw new Error(`Expected 24 user-facing tools in _meta, got ${tools?.length}`);
+            }
+            if (!fs.existsSync("LICENSE")) {
+              throw new Error("LICENSE file must exist");
+            }
+            console.log(`Validated server.json v${manifest.version} (${tools.length} tools)`);
+          '

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "knot": {
+      "type": "http",
+      "url": "https://api.connectknot.com/mcp"
+    }
+  }
+}

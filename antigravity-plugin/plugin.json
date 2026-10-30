@@ -1,0 +1,28 @@
+{
+  "name": "knot",
+  "displayName": "Knot",
+  "version": "1.0.3",
+  "description": "Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor",
+  "logo": "assets/logo.png",
+  "author": {
+    "name": "ConnectKnot",
+    "email": "support@connectknot.com",
+    "url": "https://connectknot.com"
+  },
+  "homepage": "https://connectknot.com/developers/quickstart",
+  "repository": "https://github.com/ConnectKnot/knot-mcp",
+  "suggestedPrompts": [
+    {
+      "title": "Recover Project Context",
+      "prompt": "Check Knot for our current shared understanding, active handoffs, and recent decisions on this project."
+    },
+    {
+      "title": "Sync Decision to Knot",
+      "prompt": "Propose our latest architectural decision and current state to Knot so other AI tools stay in sync."
+    },
+    {
+      "title": "Create Cross-AI Handoff",
+      "prompt": "Create a Knot handoff with the current task summary, acceptance criteria, and next steps."
+    }
+  ]
+}
