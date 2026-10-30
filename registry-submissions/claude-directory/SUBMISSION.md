@@ -18,7 +18,8 @@ Submit at: `https://claude.ai/directory/manage`
 | **Privacy Policy URL** | HTTPS URI | `https://connectknot.com/privacy` | — |
 | **Terms of Service URL** | HTTPS URI | `https://connectknot.com/terms` | — |
 | **Support URL** | HTTPS URI | `https://connectknot.com/support` (`support@connectknot.com`) | — |
-| **Primary Brand Icon (`128x128` PNG)** | PNG | `https://api.connectknot.com/api/brand/knot-icon.png` | `8,546` bytes |
+| **Primary Brand Icon (`512x512` PNG)** | PNG | `https://api.connectknot.com/api/brand/knot-icon.png` | `78,387` bytes |
+| **Medium Brand Icon (`128x128` PNG)** | PNG | `https://api.connectknot.com/favicon.png` (and `https://connectknot.com/favicon.png`) | `13,806` bytes |
 | **Fallback Compact Icon (`64x64` PNG < 5KB)** | PNG | `https://api.connectknot.com/api/brand/knot-icon-64.png` | `3,590` bytes |
 
 ---
@@ -45,7 +46,7 @@ Knot is one shared brain for all your AIs. Connect ChatGPT, Claude, Gemini, Curs
 ## Tool Surface & Annotation Verification (`v1.0.3`)
 
 - **Standard User Grant Surface:** `24` tools (`destructiveHint: false` on all 24; `openWorldHint: true` only on `knot_share_project`; `title` and `readOnlyHint` present on all 24).
-- **Gated Developer Surface:** `3` developer-admin tools (`knot_create_developer_app`, `knot_list_developer_apps`, `knot_rotate_developer_key`) are gated behind the opt-in `knot:developer` OAuth scope and are not advertised on standard user grants.
+- **Gated Developer Surface:** `3` developer-admin tools (`knot_provision_developer_app`, `knot_list_developer_apps`, `knot_rotate_developer_credential`) are gated behind the opt-in `knot:developer` OAuth scope and are not advertised on standard user grants.
 
 ## Justin-Owned Submission Inputs (At Portal Entry)
 

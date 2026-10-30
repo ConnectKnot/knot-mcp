@@ -5,7 +5,7 @@ Submit at: `https://platform.openai.com`
 ## Portal Metadata & Asset Links
 
 - **App / Connector Name:** `Knot`
-- **Short Description (`96` / `100` chars):** `Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor`
+- **Short Description (`95` / `100` chars):** `Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor`
 - **Remote MCP Endpoint:** `https://api.connectknot.com/mcp` (`streamable-http`)
 - **Authentication:** OAuth 2.1 with PKCE, CIMD (`client_id_metadata_document_supported: true`), RFC 9207 `iss`
 - **64x64 Icon (`< 5KB` PNG):** `https://api.connectknot.com/api/brand/knot-icon-64.png` (also at `https://connectknot.com/knot-icon-64.png`, `3,590` bytes)

@@ -8,7 +8,7 @@ This directory contains the validated manifests, detail-card copy, and test case
 - **Canonical Namespace:** `com.connectknot/knot` (`io.github.ConnectKnot/knot` is deprecated as superseded by `com.connectknot/knot`)
 - **Schema:** `https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json`
 - **Remote Endpoint:** `https://api.connectknot.com/mcp` (`streamable-http`)
-- **Picked Description (`96` / `100` chars):** `Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor`
+- **Picked Description (`95` / `100` chars):** `Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor`
 - **Standard Tool Surface:** `24` user-facing tools (3 developer-admin tools gated behind opt-in `knot:developer` scope)
 - **Public Repository Reference:** `https://github.com/ConnectKnot/knot-mcp` (repo ID `1435883604`)
 
@@ -63,7 +63,7 @@ This directory contains the validated manifests, detail-card copy, and test case
 
 - **Test Cases & Submission Pack (`5` Positive + `3` Negative):** [`chatgpt-apps-sdk/SUBMISSION.md`](./chatgpt-apps-sdk/SUBMISSION.md)
 - **Technical Readiness:** Verified. Supports CIMD (`client_id_metadata_document_supported: true`), RFC 9207 `iss`, `openai-mcp` unauthenticated discovery, and neutral free-tier quota messaging.
-- **64x64 App Icon (`< 5KB`):** `https://api.connectknot.com/api/brand/knot-icon-64.png` (and `https://connectknot.com/knot-icon-64.png`, `3,590` bytes, `64x64` PNG). Primary `128x128` icon at `https://api.connectknot.com/api/brand/knot-icon.png`.
+- **64x64 App Icon (`< 5KB`):** `https://api.connectknot.com/api/brand/knot-icon-64.png` (and `https://connectknot.com/knot-icon-64.png`, `3,590` bytes, `64x64` PNG). Primary `512x512` icon at `https://api.connectknot.com/api/brand/knot-icon.png` (`78,387` bytes) and `128x128` icon at `https://api.connectknot.com/favicon.png` (`13,806` bytes).
 - **Legal & Support URLs:**
   - Documentation / Quickstart: `https://connectknot.com/developers/quickstart`
   - Privacy Policy: `https://connectknot.com/privacy`
