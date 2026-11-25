@@ -1,15 +1,15 @@
 {
   "name": "knot",
   "displayName": "Knot",
-  "version": "1.0.3",
-  "description": "Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor",
+  "version": "1.0.4",
+  "description": "Governed shared context across ChatGPT, Claude, Gemini, Cursor & Enterprise VPC (connectknot.com)",
   "logo": "assets/logo.png",
   "author": {
     "name": "ConnectKnot",
     "email": "support@connectknot.com",
     "url": "https://connectknot.com"
   },
-  "homepage": "https://connectknot.com/developers/quickstart",
+  "homepage": "https://connectknot.com/quickstart",
   "repository": "https://github.com/ConnectKnot/knot-mcp",
   "suggestedPrompts": [
     {

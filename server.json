@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.connectknot/knot",
   "title": "Knot",
-  "description": "Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor",
-  "version": "1.0.3",
+  "description": "Governed shared context across ChatGPT, Claude, Gemini, Cursor & Enterprise VPC (connectknot.com)",
+  "version": "1.0.4",
   "websiteUrl": "https://connectknot.com?utm_source=mcp-registry&utm_medium=referral",
   "repository": {
     "url": "https://github.com/ConnectKnot/knot-mcp",
@@ -26,8 +26,8 @@
   "_meta": {
     "io.modelcontextprotocol.registry/publisher-provided": {
       "documentationUrl": "https://connectknot.com/agents.md",
-      "quickstartUrl": "https://connectknot.com/developers/quickstart",
-      "categories": ["memory", "context", "productivity", "developer-tools", "multi-agent"],
+      "quickstartUrl": "https://connectknot.com/quickstart",
+      "categories": ["memory", "context", "governance", "productivity", "developer-tools", "multi-agent"],
       "authentication": "oauth2",
       "tools": [
         "get_context_recovery",
@@ -53,7 +53,11 @@
         "knot_list_members",
         "knot_list_shared_updates",
         "get_knot_connection_status",
-        "propose_board_card"
+        "propose_board_card",
+        "create_ingest_drop",
+        "get_ingest_drop_status",
+        "ingest_url",
+        "purge_ingest_receipt"
       ]
     }
   }

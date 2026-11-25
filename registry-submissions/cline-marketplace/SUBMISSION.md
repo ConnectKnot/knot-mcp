@@ -1,4 +1,4 @@
-# Cline MCP Marketplace Submission — Knot
+# Cline MCP Marketplace Submission: Knot
 
 Submit at: `https://github.com/cline/mcp-marketplace/issues/new`
 
@@ -7,13 +7,14 @@ Submit at: `https://github.com/cline/mcp-marketplace/issues/new`
 - **Server Name:** Knot
 - **Namespace / ID:** `com.connectknot/knot` (`io.github.ConnectKnot/knot` deprecated)
 - **Repository URL:** `https://github.com/ConnectKnot/knot-mcp`
-- **Website / Documentation URL:** `https://connectknot.com/developers/quickstart`
+- **Website / Documentation URL:** `https://connectknot.com/quickstart`
+- **Enterprise VPC URL:** `https://connectknot.com/enterprise-brain`
 - **Agent Instructions (`llms-installation.md` / `agents.md`):** `https://connectknot.com/agents.md`
 - **Logo / Icon (512x512 PNG):** `https://api.connectknot.com/api/brand/knot-icon.png`
 - **Transport:** Remote Streamable HTTP (`https://api.connectknot.com/mcp`)
 - **Authentication:** OAuth 2.1 with PKCE & Dynamic Client Registration (no manual API key required)
 - **Short Description (<=100 chars):**
-  Shared brain, one current version of memory for any MCP client: ChatGPT, Claude, Gemini, Cursor
+  Governed shared context across ChatGPT, Claude, Gemini, Cursor & Enterprise VPC (connectknot.com)
 
 ## Recommended Cline MCP Configuration (`cline_mcp_settings.json`)
 

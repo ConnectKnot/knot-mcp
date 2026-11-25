@@ -37,11 +37,14 @@ jobs:
               throw new Error("Remote endpoint must be https://api.connectknot.com/mcp");
             }
             const tools = manifest._meta?.["io.modelcontextprotocol.registry/publisher-provided"]?.tools;
-            if (!Array.isArray(tools) || tools.length !== 24) {
-              throw new Error(`Expected 24 user-facing tools in _meta, got ${tools?.length}`);
+            if (!Array.isArray(tools) || tools.length !== 28) {
+              throw new Error(`Expected 28 user-facing tools in _meta, got ${tools?.length}`);
             }
             if (!fs.existsSync("LICENSE")) {
               throw new Error("LICENSE file must exist");
             }
             console.log(`Validated server.json v${manifest.version} (${tools.length} tools)`);
           '
+
+      - name: Run manifest & copy tests
+        run: node --test tests/manifest.test.mjs
