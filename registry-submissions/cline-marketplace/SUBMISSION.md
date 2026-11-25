@@ -14,7 +14,7 @@ Submit at: `https://github.com/cline/mcp-marketplace/issues/new`
 - **Transport:** Remote Streamable HTTP (`https://api.connectknot.com/mcp`)
 - **Authentication:** OAuth 2.1 with PKCE & Dynamic Client Registration (no manual API key required)
 - **Short Description (<=100 chars):**
-  Governed shared context across ChatGPT, Claude, Gemini, Cursor & Enterprise VPC (connectknot.com)
+  One shared brain for ChatGPT, Claude, Gemini & Cursor: current decisions & VPC (connectknot.com)
 
 ## Recommended Cline MCP Configuration (`cline_mcp_settings.json`)
 

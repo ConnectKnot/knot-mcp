@@ -1,6 +1,6 @@
 name: knot
 title: Knot
-description: Governed shared context and v1->v2 supersession across ChatGPT, Claude, Cursor, Gemini, and Enterprise VPCs over OAuth 2.1 MCP.
+description: One shared brain for ChatGPT, Claude, Cursor, Gemini, and Enterprise VPCs over OAuth 2.1 MCP.
 category: productivity
 icon: https://api.connectknot.com/api/brand/knot-icon.png
 documentation: https://connectknot.com/agents.md

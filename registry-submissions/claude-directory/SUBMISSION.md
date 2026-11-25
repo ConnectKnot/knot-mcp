@@ -7,8 +7,8 @@ Submit at: `https://claude.ai/directory/manage`
 | Field | Limit | Value | Length |
 | :--- | :--- | :--- | :--- |
 | **Name** | `<= 100` chars | `Knot` | `4` chars |
-| **Tagline** | `<= 55` chars | `Governed shared context for every AI you use.` | `45` chars |
-| **Description** | `<= 2,000` chars | See verbatim block below | `492` chars |
+| **Tagline** | `<= 55` chars | `One shared brain for every AI you use.` | `38` chars |
+| **Description** | `<= 2,000` chars | See verbatim block below | `468` chars |
 | **Remote MCP Endpoint** | HTTPS URI | `https://api.connectknot.com/mcp` | HTTPS |
 | **Transport** | Protocol | `streamable-http` | Streamable HTTP |
 | **Authentication** | OAuth | OAuth 2.1 with PKCE & Dynamic Client Registration | OAuth 2.1 |
@@ -32,21 +32,21 @@ Submit at: `https://claude.ai/directory/manage`
 Knot
 ```
 
-### Tagline (`45` / `55` chars)
+### Tagline (`38` / `55` chars)
 ```text
-Governed shared context for every AI you use.
+One shared brain for every AI you use.
 ```
 
-### Description (`492` / `2,000` chars)
+### Description (`469` / `2,000` chars)
 ```text
-Knot is governed context infrastructure for all your AIs. Connect ChatGPT, Claude, Gemini, Cursor, and enterprise agents through OAuth 2.1, and every AI reads and updates the same decisions, constraints, and specs on one active v2 truth with full v1->v2 supersession history. Drop PDFs or URLs to extract clean quoted facts while shredding raw files immediately, hand off tasks cleanly, and deploy self-hosted EnterpriseBrain in your VPC. Encryption and training details are in the Privacy Policy.
+Knot is one shared brain for all your AIs. Connect ChatGPT, Claude, Gemini, Cursor, and enterprise agents through OAuth 2.1, and every AI reads and updates the same decisions and project notes on one current version (v1->v2) with clear history. Drop PDFs or URLs to extract clean quoted facts while shredding raw files right away, pass tasks between AIs, or self-host EnterpriseBrain in your VPC. Encryption and training details are in the Privacy Policy.
 ```
 
 ---
 
-## Tool Surface & Annotation Verification (`v1.0.4`)
+## Tool Surface & Annotation Verification (`v1.0.5`)
 
-- **Standard User Grant Surface:** `28` tools (read, retrieval, governed `v1 -> v2` proposals, shredded document/URL ingestion, cross-AI handoffs, and workspace scopes).
+- **Standard User Grant Surface:** `28` tools (read, retrieval, `v1 -> v2` proposals, shredded document/URL ingestion, cross-AI handoffs, and workspace scopes).
 - **Gated Developer Surface:** Developer-admin tools remain gated behind opt-in developer OAuth scopes and are not advertised on standard user grants.
 
 ## Justin-Owned Submission Inputs (At Portal Entry)

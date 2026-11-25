@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.connectknot/knot",
   "title": "Knot",
-  "description": "Governed shared context across ChatGPT, Claude, Gemini, Cursor & Enterprise VPC (connectknot.com)",
-  "version": "1.0.4",
+  "description": "One shared brain for ChatGPT, Claude, Gemini & Cursor: current decisions & VPC (connectknot.com)",
+  "version": "1.0.5",
   "websiteUrl": "https://connectknot.com?utm_source=mcp-registry&utm_medium=referral",
   "repository": {
     "url": "https://github.com/ConnectKnot/knot-mcp",

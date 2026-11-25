@@ -17,22 +17,22 @@ function walkFiles(dir) {
   return out;
 }
 
-test("server.json matches v1.0.4, 28 tools, and canonical /quickstart", () => {
+test("server.json matches v1.0.5, 28 tools, One shared brain copy, and canonical /quickstart", () => {
   const manifest = JSON.parse(readFileSync(join(root, "server.json"), "utf8"));
-  assert.equal(manifest.version, "1.0.4");
+  assert.equal(manifest.version, "1.0.5");
   assert.equal(manifest.name, "com.connectknot/knot");
   assert.ok(manifest.description.length <= 100, `description too long: ${manifest.description.length}`);
-  assert.match(manifest.description, /govern|context/i);
+  assert.match(manifest.description, /One shared brain/i);
   const meta = manifest._meta?.["io.modelcontextprotocol.registry/publisher-provided"];
   assert.equal(meta?.quickstartUrl, "https://connectknot.com/quickstart");
   assert.equal(meta?.tools?.length, 28);
 });
 
-test("antigravity-plugin/plugin.json is bumped to v1.0.4 and uses /quickstart", () => {
+test("antigravity-plugin/plugin.json is bumped to v1.0.5 and uses /quickstart", () => {
   const plugin = JSON.parse(readFileSync(join(root, "antigravity-plugin/plugin.json"), "utf8"));
-  assert.equal(plugin.version, "1.0.4");
+  assert.equal(plugin.version, "1.0.5");
   assert.equal(plugin.homepage, "https://connectknot.com/quickstart");
-  assert.match(plugin.description, /govern|context/i);
+  assert.match(plugin.description, /One shared brain/i);
 });
 
 test("repo docs, registry submissions, and workflows have zero stale 24-tool, /developers/quickstart, or em-dash text", () => {

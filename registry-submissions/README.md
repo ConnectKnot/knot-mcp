@@ -2,13 +2,13 @@
 
 This directory contains the validated manifests, detail-card copy, and test cases to list Knot's remote Streamable HTTP MCP server (`https://api.connectknot.com/mcp`) across the Official MCP Registry and partner directories.
 
-## 1. Official MCP Registry (`registry.modelcontextprotocol.io`, `v1.0.4`)
+## 1. Official MCP Registry (`registry.modelcontextprotocol.io`, `v1.0.5`)
 
 - **Manifest:** [`server.json`](../server.json)
 - **Canonical Namespace:** `com.connectknot/knot` (`io.github.ConnectKnot/knot` is deprecated as superseded by `com.connectknot/knot`)
 - **Schema:** `https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json`
 - **Remote Endpoint:** `https://api.connectknot.com/mcp` (`streamable-http`)
-- **Picked Description (`97` / `100` chars):** `Governed shared context across ChatGPT, Claude, Gemini, Cursor & Enterprise VPC (connectknot.com)`
+- **Picked Description (`96` / `100` chars):** `One shared brain for ChatGPT, Claude, Gemini & Cursor: current decisions & VPC (connectknot.com)`
 - **Standard Tool Surface:** `28` user-facing tools (including multimodal/URL shredded ingestion; developer-admin tools remain gated behind opt-in developer scopes)
 - **Public Repository Reference:** `https://github.com/ConnectKnot/knot-mcp` (repo ID `1435883604`)
 - **Enterprise Self-Hosted Option:** `Knot EnterpriseBrain` (`https://connectknot.com/enterprise-brain`)

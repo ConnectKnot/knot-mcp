@@ -1,8 +1,8 @@
 # Knot MCP Server
 
-**Governed shared context across all your AIs and enterprise VPCs.**
+**One shared brain for all your AIs and enterprise clouds.**
 
-Knot (`https://api.connectknot.com/mcp`) is a remote Streamable HTTP Model Context Protocol (MCP) server with OAuth 2.1 + PKCE authentication. Connect ChatGPT, Claude, Cursor, Gemini, Kiro, Perplexity, VS Code, Windsurf, and Google Antigravity so your decisions stay on one active `v2` truth with deterministic `v1 -> v2` supersession lineage, scoped permissions, immediate shredding for uploaded documents and URLs, and self-hosted deployment via **Knot EnterpriseBrain**.
+Knot (`https://api.connectknot.com/mcp`) is a remote Streamable HTTP Model Context Protocol (MCP) server with OAuth 2.1 + PKCE authentication. Give ChatGPT, Claude, Cursor, Gemini, Kiro, Perplexity, VS Code, Windsurf, and Google Antigravity one shared brain so every AI works from your current decisions (`v1 -> v2`), with clear per-tool permissions, immediate shredding for uploaded documents and URLs, and self-hosted VPC deployment via **Knot EnterpriseBrain**.
 
 - **Website:** [https://connectknot.com](https://connectknot.com)
 - **Quickstart & SDKs:** [https://connectknot.com/quickstart](https://connectknot.com/quickstart)
@@ -57,7 +57,7 @@ Standard user connections expose **28 capability-gated tools** across 5 groups. 
 | Tool Group | Tools |
 | :--- | :--- |
 | **Turn-0 Recovery & Retrieval (`6`)** | `get_context_recovery`, `get_relevant_context`, `get_shared_understanding`, `search_context`, `list_context`, `get_context` |
-| **Multi-Domain Governed Writes (`4`)** | `batch_propose_context`, `propose_context`, `sync_context_snapshot`, `propose_board_card` |
+| **Multi-Domain Decision Writes (`4`)** | `batch_propose_context`, `propose_context`, `sync_context_snapshot`, `propose_board_card` |
 | **Shredded Multimodal & URL Ingestion (`4`)** | `create_ingest_drop`, `get_ingest_drop_status`, `ingest_url`, `purge_ingest_receipt` |
 | **Cross-Agent Handoffs & Activity (`7`)** | `report_active_state`, `get_active_state`, `create_handoff`, `check_pending_handoffs`, `list_handoffs`, `update_handoff_status`, `context_diff` |
 | **Workspace Scope & Sharing (`7`)** | `knot_list_scopes`, `knot_set_active_scope`, `knot_rename_project`, `knot_share_project`, `knot_list_members`, `knot_list_shared_updates`, `get_knot_connection_status` |

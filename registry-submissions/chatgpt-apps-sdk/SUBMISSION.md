@@ -5,7 +5,7 @@ Submit at: `https://platform.openai.com`
 ## Portal Metadata & Asset Links
 
 - **App / Connector Name:** `Knot`
-- **Short Description (`97` / `100` chars):** `Governed shared context across ChatGPT, Claude, Gemini, Cursor & Enterprise VPC (connectknot.com)`
+- **Short Description (`96` / `100` chars):** `One shared brain for ChatGPT, Claude, Gemini & Cursor: current decisions & VPC (connectknot.com)`
 - **Remote MCP Endpoint:** `https://api.connectknot.com/mcp` (`streamable-http`)
 - **Authentication:** OAuth 2.1 with PKCE, CIMD (`client_id_metadata_document_supported: true`), RFC 9207 `iss`
 - **64x64 Icon (`< 5KB` PNG):** `https://api.connectknot.com/api/brand/knot-icon-64.png` (`https://connectknot.com/knot-icon-64.png`, `3,590` bytes)
@@ -14,7 +14,7 @@ Submit at: `https://platform.openai.com`
 - **Privacy Policy URL:** `https://connectknot.com/privacy`
 - **Terms of Service URL:** `https://connectknot.com/terms`
 - **Support URL:** `https://connectknot.com/support` (`support@connectknot.com`)
-- **Surface Alignment (`v1.0.4`):** `28` standard user tools including shredded multimodal/URL ingestion (`create_ingest_drop`, `get_ingest_drop_status`, `ingest_url`, `purge_ingest_receipt`).
+- **Surface Alignment (`v1.0.5`):** `28` standard user tools including shredded multimodal/URL ingestion (`create_ingest_drop`, `get_ingest_drop_status`, `ingest_url`, `purge_ingest_receipt`).
 
 ---
 
